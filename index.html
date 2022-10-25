@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script src="assets/js/script.js" defer></script>
+
+</head>
+
+<body>
+  <section id="main-section">
+    <div class="flex-box container-box">
+      <div class="content-box">
+        <div class="icon-star">
+          <img src="./images/icon-star.svg">
+        </div>
+        <div class="titulo">
+          <h1>How did we do?</h1>
+        </div>
+        <div class="texto">
+          <p>please let us know how we did with our support request. All feedback is appreciated to help us improve our
+            offering!</p>
+        </div>
+
+        <ul class="rating-box">
+          <li><button class="btn-rating">1</button></li>
+          <li><button class="btn-rating">2</button></li>
+          <li><button class="btn-rating">3</button></li>
+          <li><button class="btn-rating">4</button></li>
+          <li><button class="btn-rating">5</button></li>
+        </ul>
+
+        <button id="submit" class="btn-submit"  onclick="submit()">SUBMIT</button>
+  </section>
+
+  <!----- Thank you---->
+  <section>
+    <div class="flex-box container-box thankyou">
+      <div class="content-box">
+        <div class="thankyou-svg">
+          <img src="./images/illustration-thank-you.svg">
+        </div>
+        <div class="qntd-selecionada">
+          <p>You selected <span id="rating">1</span> out of 5.</p>
+        </div>
+        <div class="titulo">
+          <h1>Thank You!</h1>
+        </div>
+        <div class="texto">
+          <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </div>
+  </div>
+</body>
+
+</html>
